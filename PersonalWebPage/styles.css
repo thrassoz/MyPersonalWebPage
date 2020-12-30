@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/thassos.jpg");
+}
+section {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 50%;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    box-shadow: 0 0 10px 0px black;
+}
+.container {
+    padding: 30px;
+}
+.card {
+    display: flex;
+    align-items: baseline;
+    margin-inline-end: 28%;
+    justify-content: space-between;
+    height: 150px;  
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-flex;
+    width: 48px;
+    height: 40px;
+}
+li:hover{
+    position: relative;
+    bottom: 5px;
+    transform: translateZ(-20px);
+    height: 60px;
+
+}
+.profile_picture {
+    border-radius: 50%;
+    width: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px -5px black;
+}
+
+.icons {
+    border-radius: 50%;
+    width: 30px;
+}
+
+strong{
+    color: #e8701b;
+}
+
+a{
+    text-decoration: none;
+    color: #4499dd;
+}
+
+

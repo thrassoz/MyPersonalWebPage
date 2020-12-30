@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/sunset.jpg");
+}
+section {
+    position: fixed;
+    left: 25%;
+    top: 5%;
+    right: 25%;
+    bottom: 5%;
+    width: 50%;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    box-shadow: 0 0 10px 0px black;
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    display: inline-flex;
+}
+
+.profile_picture {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.icons {
+    border-radius: 50%;
+    width: 30px;
+}
+
+
+
